@@ -1,33 +1,20 @@
-# MULT SILK CAMISETAS
+# MULT SILK CAMISETAS — site para GitHub e Vercel
 
-Site institucional e catálogo de camisetas personalizadas, com orçamento pelo WhatsApp.
+Este pacote já contém todas as fotos necessárias. **Não envie o ZIP diretamente ao GitHub.**
 
-## Publicar no GitHub
+## Para corrigir imagens quebradas
 
-1. Acesse https://github.com/new e crie um repositório com o nome `mult-silk-camisetas` (ou outro nome de sua preferência).
-2. Entre no repositório e clique em **Add file → Upload files**.
-3. **Depois de extrair o ZIP**, abra a pasta `MULT-SILK-GitHub` e envie **o conteúdo dela**, principalmente `index.html`, `catalogo-data.js` e a pasta `assets` (incluindo `premium`). O `index.html` deve ficar na raiz do repositório.
-4. Clique em **Commit changes**.
+1. Extraia o ZIP no Windows.
+2. Abra a pasta `MULT-SILK-GITHUB-COM-FOTOS`.
+3. No GitHub, abra `https://github.com/multsilkcamisetas-beep/mult-silk-camisetas`.
+4. Escolha **Add file → Upload files**.
+5. Arraste **o conteúdo da pasta**, incluindo o diretório `assets` inteiro, `index.html` e `catalogo-data.js`. Não arraste o ZIP.
+6. Mantenha a estrutura: `index.html` e `assets/` ficam no mesmo nível, na raiz do repositório.
+7. Confirme a substituição dos arquivos que já existem e escolha **Commit changes**.
+8. Aguarde a publicação automática da Vercel associada ao GitHub.
 
-Se a interface do GitHub não permitir enviar a pasta `assets` completa, prefira usar o **GitHub Desktop** para publicar a pasta extraída, preservando suas subpastas.
+### Teste rápido
 
-## Hospedar pela Vercel
+No GitHub, confira se consegue abrir: `assets/logo-mul-silk.webp` e `assets/premium/vidativa-1.webp`. No site publicado, também confira a pasta `assets` e `catalogo-data.js`.
 
-1. Entre em https://vercel.com/new.
-2. Escolha **Import Git Repository** e autorize o acesso ao repositório `mult-silk-camisetas` no GitHub.
-3. Configure **Framework Preset: Other** e mantenha a **Root Directory** como `./`.
-4. Faça o deploy. O site é estático, sem etapas de instalação ou compilação.
-5. Abra o endereço gerado e confira as fotos, o catálogo e o WhatsApp **(16) 98137-3999**.
-
-## Editar o catálogo
-
-As informações das camisetas ficam em `catalogo-data.js` e as imagens ficam em `assets/`. O painel visual que você recebeu separadamente funciona **localmente**; ele não está neste repositório público porque não tem autenticação. Após gerar os arquivos atualizados com o painel, substitua os correspondentes no repositório e faça um novo commit. A Vercel poderá publicar as mudanças automaticamente quando o repositório estiver conectado.
-
-## Estrutura
-
-- `index.html`: página pública
-- `catalogo-data.js`: dados do catálogo
-- `assets/`: imagens, banners e logos
-- `.gitignore`: arquivos locais que não devem ser publicados
-
-**Observação:** as fotos e mockups incluídos foram fornecidos pelo proprietário da marca para uso no catálogo. Não existe sistema de pagamento online nem painel administrativo autenticado na hospedagem.
+O site é estático (não é necessário compilar). Não publique arquivos de painel administrativo local.
