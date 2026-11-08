@@ -1,10 +1,8 @@
-# Arquivos e configurações locais
-.DS_Store
-Thumbs.db
-*.log
 .env
 .env.*
-.vercel/
+!.env.example
+*.pem
+*.key
 node_modules/
-# Não incluir o painel local sem autenticação
-painel.html
+.vercel/
+.DS_Store
