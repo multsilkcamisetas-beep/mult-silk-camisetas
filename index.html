@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f9f8f5">
+<meta name="description" content="Mult Silk Camisetas. Confira nosso portfólio real de camisetas personalizadas, uniformes, formaturas, roupas esportivas e estampas. Solicite orçamento no WhatsApp.">
+<title>Mult Silk Camisetas | Portfólio e personalizados</title>
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#202321;--muted:#767b76;--bg:#f9f8f5;--white:#fff;--stroke:#e5e5e0;--forest:#234f3f;--sage:#ebf1ed;--metal:#867768;--dark:#1d2521;--round:19px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.68 'DM Sans',Arial,sans-serif}
+button,input{font:inherit}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer}
+img{display:block;max-width:100%}
+:focus-visible{outline:3px solid #54a18c;outline-offset:3px}
+.container{max-width:1250px;margin:auto;padding:0 32px}
+.announcement{padding:9px 12px;background:#26332c;color:#e1eae4;text-align:center;font-size:10px;letter-spacing:.24em;font-weight:700}
+.header{position:sticky;top:0;z-index:50;background:#f9f8f5f2;backdrop-filter:blur(16px);border-bottom:1px solid var(--stroke)}
+.nav{display:flex;gap:20px;align-items:center;justify-content:space-between;min-height:81px}
+.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.brand img{width:60px;height:60px;object-fit:contain}
+.brand span{font:800 18px/1.2 Manrope,Arial,sans-serif;letter-spacing:-.06em}
+.brand small{display:block;color:#767a75;font:700 10px/1.6 'DM Sans',Arial,sans-serif;letter-spacing:.26em;margin-top:3px}
+.navlinks{display:flex;align-items:center;gap:27px;font-weight:700;font-size:13px;color:#57615a}
+.navlinks a:hover{color:var(--forest)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid var(--dark);background:var(--dark);color:#fff;border-radius:12px;padding:13px 20px;font:700 13px 'DM Sans',Arial,sans-serif;transition:background .18s,transform .18s}
+.btn:hover{background:#3b4b41;transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--dark);border-color:#c7cec8}
+.btn-outline:hover{background:#e8efea}
+.mobile-menu{display:none;background:none;border:none;font-size:27px}
+.hero{padding:60px 0 76px}
+.hero-grid{display:grid;grid-template-columns:.93fr 1.07fr;align-items:center;gap:50px}
+.eyebrow{color:var(--forest);font-weight:800;font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+h1,h2,h3,p{margin-top:0}
+h1,h2,h3{font-family:Manrope,Arial,sans-serif;letter-spacing:-.055em}
+h1{font-size:clamp(45px,4.8vw,68px);line-height:1.11;margin:24px 0 22px;font-weight:800}
+h1 em{font-style:normal;color:var(--forest)}
+.hero p{font-size:16px;line-height:1.9;color:#69736b;max-width:495px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:31px}
+.hero-note{display:flex;gap:10px;align-items:center;margin-top:33px;color:#717e75;font-size:12px;font-weight:600}
+.hero-note .dot{width:9px;height:9px;background:#69a88d;border-radius:50%}
+.hero-display{position:relative;min-height:525px;border-radius:26px;background:linear-gradient(140deg,#ebeae6,#e7ece9 60%,#dfe5df);overflow:hidden;border:1px solid #e1e3db}
+.hero-display:before{content:'';position:absolute;width:540px;height:540px;top:44px;left:50%;transform:translateX(-50%);border:1px solid #ffffff9c;border-radius:50%;box-shadow:0 0 0 76px #ffffff27}
+.hero-main{position:absolute;z-index:2;top:28px;left:22%;width:54%;height:87%;object-fit:cover;object-position:center top;border:6px solid #fff;box-shadow:0 25px 45px #2c423033;border-radius:13px;transform:rotate(2deg)}
+.hero-side{position:absolute;z-index:1;top:98px;left:1%;width:36%;height:69%;object-fit:cover;object-position:center top;border:5px solid #fff;border-radius:13px;box-shadow:0 22px 35px #22362926;transform:rotate(-9deg)}
+.hero-third{position:absolute;z-index:3;bottom:18px;right:0;width:34%;height:58%;object-fit:cover;object-position:center top;border:5px solid #fff;border-radius:13px;box-shadow:0 22px 35px #22362930;transform:rotate(8deg)}
+.hero-stamp{position:absolute;right:17px;top:14px;z-index:5;display:flex;gap:6px;align-items:center;background:#fffedc;padding:8px 12px;border:1px solid #f0edcb;border-radius:999px;font-weight:800;font-size:11px;color:#42574b;box-shadow:0 3px 12px #0000000b}
+.hero-stamp span{width:7px;height:7px;border-radius:50%;background:#43886b}
+.hero-badge{position:absolute;z-index:5;bottom:20px;left:18px;background:#fff;display:flex;gap:9px;align-items:center;padding:8px 12px 8px 7px;border-radius:14px;box-shadow:0 8px 30px #0002;font-size:11px;color:#6f776f}
+.hero-badge img{width:50px;height:50px;object-fit:contain}
+.hero-badge strong{display:block;font-size:13px;color:var(--ink)}
+.section{padding:78px 0;scroll-margin-top:110px}
+.section.alt{background:#f0f1ed}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:24px}
+h2{font-size:clamp(30px,3.25vw,43px);line-height:1.2;margin:13px 0 0}
+.section-head>p{max-width:430px;color:var(--muted);margin:0;font-size:14px}
+.portfolio-caption{font-size:12px;color:#7d827c;margin-bottom:22px}
+.filters{display:flex;gap:9px;flex-wrap:wrap;margin:24px 0 26px}
+.filter{background:#fff;border:1px solid #dce0da;color:#606c62;border-radius:999px;padding:10px 17px;font-size:12px;font-weight:700}
+.filter.active,.filter:hover{background:var(--forest);color:#fff;border-color:var(--forest)}
+.search-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:space-between}
+.search-wrap{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid #dce0da;padding:0 13px;border-radius:999px;min-width:220px}
+.search-wrap span{color:#88938b}
+.search-wrap input{outline:none;border:none;padding:10px 0;width:100%;font-size:12px;background:transparent}
+.count{color:#808a82;font-size:12px}
+.products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.product{background:#fff;border:1px solid var(--stroke);border-radius:18px;overflow:hidden;transition:transform .2s,border-color .2s,box-shadow .2s}
+.product:hover{transform:translateY(-4px);border-color:#b6c6bb;box-shadow:0 12px 24px #2236290a}
+.product-photo{height:315px;position:relative;background:#eaece7;overflow:hidden;cursor:pointer}
+.product-photo img{width:100%;height:100%;object-fit:cover;object-position:center 28%;transition:transform .25s}
+.product:hover .product-photo img{transform:scale(1.035)}
+.tag{position:absolute;top:13px;left:13px;border-radius:999px;padding:6px 11px;background:#ffffffeb;color:#41564a;font-size:10px;font-weight:800;letter-spacing:.04em;box-shadow:0 1px 6px #0001}
+.photo-count{position:absolute;bottom:13px;right:13px;color:#fff;border-radius:8px;background:#1a2925b5;font-size:11px;padding:5px 9px;font-weight:700}
+.product-info{padding:21px}
+.product-info small{color:#57715d;font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:10px}
+.product-info h3{font-size:18px;margin:7px 0 9px;line-height:1.3}
+.product-info p{font-size:13px;line-height:1.7;color:var(--muted);min-height:44px;margin-bottom:16px}
+.card-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.card-actions .btn{padding:11px 8px;font-size:12px}
+.no-results{grid-column:1/-1;text-align:center;padding:50px;color:#66776c;background:#fff;border-radius:18px}
+.custom-head{max-width:680px;margin-bottom:30px}
+.custom-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:23px}
+.custom-photo{border-radius:22px;overflow:hidden;background:#f4f3ef;border:1px solid #dfe1dc}
+.custom-photo img{width:100%;height:445px;object-fit:cover;object-position:center}
+.custom-content{display:flex;flex-direction:column;justify-content:center;padding:25px 12px}
+.custom-content h3{font-size:30px;line-height:1.27;margin:10px 0 14px}
+.custom-content p{color:#737b73;line-height:1.85}
+.custom-steps{margin:8px 0 28px;padding-left:20px;color:#667269;line-height:2}
+.custom-actions{display:flex;gap:10px;flex-wrap:wrap}
+.features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px;margin-top:35px}
+.feature{padding:25px;border:1px solid #e1e3de;border-radius:17px;background:#fff}
+.feature-symbol{display:grid;place-items:center;width:43px;height:43px;border-radius:13px;background:#e5efe7;color:#315643;font-size:24px;margin-bottom:20px}
+.feature h3{font-size:17px;margin:0 0 10px}
+.feature p{font-size:13px;color:var(--muted);margin:0}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+.about-art{min-height:420px;background:radial-gradient(circle at 50% 45%,#f8f7f2,#e4e3dc);border-radius:25px;display:grid;place-items:center;position:relative;overflow:hidden;border:1px solid #dfded6}
+.about-art:before{content:'';border:1px solid #d5d2c8;border-radius:50%;width:365px;height:365px;position:absolute}
+.about-art img{width:74%;max-height:385px;object-fit:contain;z-index:1;filter:drop-shadow(0 13px 15px #0003)}
+.about-copy p{line-height:1.95;color:var(--muted)}
+.about-copy ul{padding-left:20px;color:#657268;line-height:2}
+.cta{display:flex;justify-content:space-between;align-items:center;gap:25px;background:#26372e;color:#fff;border-radius:22px;padding:48px 57px}
+.cta h2{font-size:clamp(28px,3vw,40px)}
+.cta p{color:#d2ded5;margin-bottom:0}
+.cta .btn{background:#fff;color:var(--dark);border-color:#fff;white-space:nowrap}
+footer{padding:48px 0 20px;background:#e7ebe6}
+.footer-grid{display:flex;justify-content:space-between;gap:35px}
+footer p{max-width:370px;font-size:13px;color:#6b756e;margin:16px 0}
+.footer-links{display:flex;gap:20px;flex-wrap:wrap;align-items:center;font-size:13px;font-weight:700}
+.copy{border-top:1px solid #d0d6cf;margin-top:35px;padding-top:16px;font-size:11px;color:#68766d}
+.floating-wa{position:fixed;right:22px;bottom:20px;z-index:80;border:0;border-radius:999px;padding:13px 18px;background:#258453;color:#fff;box-shadow:0 8px 28px #23432949;font-weight:800;font-size:13px}
+.floating-wa:hover{background:#176b40}
+.overlay{position:fixed;inset:0;z-index:110;background:#0f1914c2;display:none;place-items:center;padding:19px}
+.overlay.open{display:grid}
+.lightbox{background:#fff;border-radius:22px;max-width:1000px;width:100%;max-height:94vh;display:grid;grid-template-columns:1.2fr .8fr;overflow:hidden;position:relative}
+.lightbox-photo{min-height:480px;background:#f0f1ec;position:relative;display:grid;place-items:center;overflow:hidden}
+.lightbox-photo img{width:100%;height:100%;max-height:85vh;object-fit:contain}
+.lightbox-copy{padding:46px 26px 27px;overflow:auto}
+.lightbox-copy h3{font-size:25px;line-height:1.2;margin:9px 0}
+.lightbox-copy p{color:#6c786e;font-size:13px;line-height:1.8}
+.viewer-controls{position:absolute;left:12px;right:12px;top:50%;display:flex;justify-content:space-between;pointer-events:none}
+.viewer-controls button{pointer-events:all;border:0;background:#fffffff0;width:36px;height:36px;border-radius:50%;font-size:24px;box-shadow:0 5px 14px #0002}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding:12px 0;margin:15px 0}
+.thumbs button{padding:0;border:2px solid transparent;background:none;flex:0 0 60px;height:66px;border-radius:8px;overflow:hidden}
+.thumbs button.active{border-color:var(--forest)}
+.thumbs img{width:100%;height:100%;object-fit:cover}
+.view-label{color:#556459;font-size:12px;font-weight:700}
+.close{position:absolute;z-index:10;top:11px;right:11px;width:36px;height:36px;border:1px solid #e7e7e3;border-radius:50%;background:#fff;font-size:24px;display:grid;place-items:center}
+.quote{background:#fff;border-radius:20px;width:min(100%,480px);padding:31px;position:relative}
+.quote h3{font-size:25px;margin:0 34px 7px 0}
+.quote p{font-size:14px;color:#66766c}
+.quote label{display:block;margin:19px 0 5px;font-size:12px;font-weight:800}
+.quote input{width:100%;border:1px solid #d2dcd4;border-radius:10px;padding:12px}
+.quote .btn{width:100%;margin-top:21px}
+.quote small{display:block;color:#7b867f;margin-top:11px;line-height:1.6}
+@media(max-width:1050px){.hero-grid{gap:25px}.navlinks{gap:15px}.products{grid-template-columns:repeat(2,minmax(0,1fr))}.about-grid{gap:30px}}
+@media(max-width:720px){.container{padding:0 19px}.nav{min-height:71px}.brand img{width:50px;height:50px}.brand span{font-size:16px}.navlinks{position:absolute;top:71px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--stroke);display:none;flex-direction:column;align-items:stretch;padding:20px 24px;gap:18px}.navlinks.open{display:flex}.nav>.btn{display:none}.mobile-menu{display:block}.hero{padding:22px 0 50px}.hero-grid,.about-grid,.custom-grid{grid-template-columns:1fr}.hero-display{min-height:350px;order:-1}.hero-main{height:85%}.hero-side{top:70px}.hero-third{height:54%}.hero-badge{left:9px;bottom:10px}.hero-stamp{top:10px;right:10px}.hero h1{font-size:clamp(38px,10vw,54px);margin-top:17px}.hero p{font-size:15px}.actions{margin-top:24px}.section{padding:55px 0}.section-head{display:block}.section-head>p{margin-top:13px}.filters{gap:7px}.filter{font-size:11px;padding:9px 13px}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.product-photo{height:230px}.product-info{padding:14px}.product-info h3{font-size:15px}.product-info p{font-size:12px;min-height:66px}.card-actions{grid-template-columns:1fr}.card-actions .btn{font-size:11px}.custom-photo img{height:285px;object-fit:contain}.custom-content{padding:10px}.custom-content h3{font-size:25px}.features{grid-template-columns:1fr}.about-art{min-height:345px;order:-1}.about-art img{max-height:300px}.cta{padding:29px 22px;display:block}.cta .btn{margin-top:20px;white-space:normal}.footer-grid{display:block}.footer-links{margin-top:22px}.floating-wa{right:13px;bottom:13px}.lightbox{grid-template-columns:1fr;max-height:93vh;overflow:auto}.lightbox-photo{min-height:280px;height:45vh}.lightbox-photo img{max-height:45vh}.lightbox-copy{padding:20px}.lightbox-copy h3{font-size:20px}.quote{padding:25px 20px}}
+@media(max-width:430px){.products{grid-template-columns:1fr}.product-photo{height:350px}.product-info p{min-height:0}.card-actions{grid-template-columns:1fr 1fr}.hero-display{min-height:325px}.search-row{align-items:stretch}.search-wrap{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Premium promotional gallery and category lookbook */
+.category-section{padding-top:40px;padding-bottom:65px}
+.category-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:15px}
+.category-card{grid-column:span 2;display:block;border-radius:19px;overflow:hidden;background:#26372e;border:1px solid #e6e6df;box-shadow:0 11px 27px #161d180d;transition:transform .2s,box-shadow .2s}
+.category-card:nth-child(4),.category-card:nth-child(5){grid-column:span 3}
+.category-card img{width:100%;height:210px;object-fit:cover;transition:transform .25s}
+.category-card:hover{transform:translateY(-4px);box-shadow:0 15px 30px #161d1820}
+.category-card:hover img{transform:scale(1.03)}
+.visually-hidden{position:absolute;clip:rect(0,0,0,0);clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap}
+.photo-disclaimer{font-size:12px;color:#626e67;line-height:1.7;padding:11px 15px;border-left:3px solid #729582;background:#eff4f0;border-radius:0 12px 12px 0;margin:0 0 11px}
+.preview-label{position:absolute;top:49px;left:13px;border-radius:7px;padding:3px 9px;background:#1c322ccc;color:#fff;font-size:10px;font-weight:700}
+.promo-section{padding:54px 0 30px}
+.promo-section .container{position:relative}
+.promo-section picture img{width:100%;border-radius:23px;box-shadow:0 18px 42px #111a1740}
+.promo-cta{position:absolute;right:50px;bottom:21px;background:#e8f7ec;color:#203629;padding:11px 22px;border-radius:13px;font-weight:800;font-size:13px;box-shadow:0 6px 24px #0003}
+.product-photo{height:337px}
+.product-photo img{object-position:center center}
+.hero-main,.hero-side,.hero-third{object-position:center center}
+@media(max-width:900px){.category-card img{height:170px}.category-grid{gap:12px}}
+@media(max-width:720px){.category-grid{grid-template-columns:repeat(2,1fr)}.category-card,.category-card:nth-child(4),.category-card:nth-child(5){grid-column:span 1}.category-card img{height:140px}.category-card:last-child{grid-column:span 2}.promo-cta{right:30px;bottom:22px}.product-photo{height:235px}}
+@media(max-width:430px){.category-grid{grid-template-columns:1fr}.category-card,.category-card:last-child,.category-card:nth-child(4),.category-card:nth-child(5){grid-column:span 1}.category-card img{height:auto;aspect-ratio:940/520}.product-photo{height:350px}}
+
+</style>
+</head>
+<body>
+<div class="announcement">MULT SILK CAMISETAS &nbsp;•&nbsp; SEU PROJETO, NOSSA PERSONALIZAÇÃO</div>
+<header class="header"><nav class="container nav" aria-label="Navegação principal">
+<a class="brand" href="#inicio" aria-label="Mult Silk Camisetas — início"><img src="assets/logo-mul-silk.webp" alt="" width="60" height="60"><span>MULT SILK<small>CAMISETAS</small></span></a>
+<div class="navlinks" id="navlinks"><a href="#inicio">Início</a><a href="#catalogo">Portfólio</a><a href="#personalizar">Personalização</a><a href="#sobre">Sobre nós</a><a href="#contato">Contato</a></div>
+<a class="btn" href="#contato">Solicitar orçamento ↗</a><button class="mobile-menu" id="menuBtn" aria-expanded="false" aria-label="Abrir menu">☰</button>
+</nav></header>
+<main>
+<section class="hero" id="inicio"><div class="container hero-grid">
+<div><div class="eyebrow">CAMISETAS PERSONALIZADAS • PORTFÓLIO REAL</div><h1>Sua ideia vira <em>estampa.</em><br>Seu grupo ganha identidade.</h1><p>Camisetas, uniformes, formaturas e peças esportivas personalizadas. Conheça trabalhos e inspirações para criar o seu projeto com a Mult Silk Camisetas.</p>
+<div class="actions"><a class="btn" href="#catalogo">Conhecer trabalhos ↗</a><button class="btn btn-outline" data-quote="um projeto personalizado">Pedir orçamento</button></div><div class="hero-note"><span class="dot"></span> Prévias valorizadas e fotografias originais nas galerias</div></div>
+<div class="hero-display" aria-label="Alguns trabalhos de camisetas e uniformes"><img class="hero-side" src="assets/premium/nativa-roxa-1.webp" alt="Apresentação estilizada de camiseta Nativa FM roxa"><img class="hero-main" src="assets/premium/vidativa-1.webp" alt="Apresentação estilizada de camiseta de corrida verde VidAtiva"><img class="hero-third" src="assets/premium/terceirao-pantera-1.webp" alt="Apresentação estilizada de camiseta de terceirão preta"><div class="hero-stamp"><span></span> Prévias estilizadas</div><div class="hero-badge"><img src="assets/logo-mul-silk.webp" alt=""><div><strong>Mult Silk Camisetas</strong>Feito para destacar sua ideia</div></div></div>
+</div></section>
+<section class="section category-section" id="categorias"><div class="container"><div class="section-head"><div><span class="eyebrow">ESCOLHA O SEU ESTILO</span><h2>Uma coleção para cada ideia.</h2></div><p>Explore os modelos por tipo de projeto. Cada galeria tem fotos reais e, quando disponível, uma prévia estilizada.</p></div><div class="category-grid"><a class="category-card" href="#catalogo" data-jump="esporte"><img src="assets/categoria-esporte.webp" alt="Categoria Corrida e esporte" loading="lazy"><span class="visually-hidden">Ver Corrida e esporte</span></a><a class="category-card" href="#catalogo" data-jump="uniformes"><img src="assets/categoria-uniformes.webp" alt="Categoria Uniformes" loading="lazy"><span class="visually-hidden">Ver Uniformes</span></a><a class="category-card" href="#catalogo" data-jump="formaturas"><img src="assets/categoria-formaturas.webp" alt="Categoria Formaturas" loading="lazy"><span class="visually-hidden">Ver Formaturas</span></a><a class="category-card" href="#catalogo" data-jump="estampas"><img src="assets/categoria-estampas.webp" alt="Categoria Estampas exclusivas" loading="lazy"><span class="visually-hidden">Ver Estampas exclusivas</span></a><a class="category-card" href="#catalogo" data-jump="personalizacao"><img src="assets/categoria-personalizacao.webp" alt="Categoria Personalização" loading="lazy"><span class="visually-hidden">Ver Personalização</span></a></div></div></section>
+<section class="section alt" id="catalogo"><div class="container"><div class="section-head"><div><span class="eyebrow">PORTFÓLIO DE TRABALHOS</span><h2>Encontre sua próxima inspiração.</h2></div><p>Veja os modelos com capas estilizadas e fotografias reais. Abra cada produto para conferir frente, costas e outros detalhes disponíveis.</p></div>
+<p class="photo-disclaimer">As prévias estilizadas são ilustrativas e podem variar em pequenos detalhes da estampa. As fotografias originais permanecem disponíveis em cada galeria para consulta.</p><div class="search-row"><div class="filters" role="group" aria-label="Filtrar portfólio"><button class="filter active" data-filter="todos" aria-pressed="true">Todos</button><button class="filter" data-filter="esporte" aria-pressed="false">Esporte e corrida</button><button class="filter" data-filter="uniformes" aria-pressed="false">Uniformes</button><button class="filter" data-filter="formaturas" aria-pressed="false">Formaturas</button><button class="filter" data-filter="estampas" aria-pressed="false">Estampas</button><button class="filter" data-filter="personalizacao" aria-pressed="false">Personalização</button></div><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" aria-label="Pesquisar no portfólio" placeholder="Buscar trabalhos..."></div></div>
+<p class="portfolio-caption"><span class="count" id="resultCount"></span> • Os modelos são exemplos de trabalhos e possibilidades. Valores, tamanhos e disponibilidade sob consulta.</p><div class="products" id="products"></div></div></section>
+<section class="promo-section"><div class="container"><picture><source media="(max-width:680px)" srcset="assets/banner-mobile.webp"><img src="assets/banner-home.webp" alt="Mult Silk Camisetas: uniformes, corrida, formaturas e personalização. WhatsApp (16) 98137-3999" loading="lazy"></picture><a class="promo-cta" href="#catalogo" aria-label="Ver catálogo de camisetas">Explorar catálogo ↗</a></div></section>
+<section class="section" id="personalizar"><div class="container"><div class="custom-head"><span class="eyebrow">SUA ESTAMPA AQUI</span><h2>Você escolhe a arte. Nós ajudamos a transformar em camiseta.</h2></div>
+<div class="custom-grid"><div class="custom-photo"><img src="assets/personalizacao.webp" alt="Exemplo ilustrativo de camiseta preta com estampa na frente e nas costas e detalhe da manga" loading="lazy"></div><div class="custom-content"><span class="eyebrow">PERSONALIZAÇÃO SOB ENCOMENDA</span><h3>Do logo discreto à estampa de destaque.</h3><p>Envie sua ideia, logo ou referência e consulte as opções de posicionamento para sua camiseta. Os modelos exibidos são ilustrativos.</p><ol class="custom-steps"><li>Escolha o modelo e a quantidade.</li><li>Mostre a arte ou explique sua ideia.</li><li>Solicite seu orçamento pelo WhatsApp.</li></ol><div class="custom-actions"><button class="btn" data-quote="camisetas com minha própria estampa">Quero personalizar ↗</button><button class="btn btn-outline" data-view="personalizar">Ver os exemplos</button></div></div></div>
+<div class="features"><article class="feature"><div class="feature-symbol">✦</div><h3>Estampa com identidade</h3><p>Personalização para divulgar marcas, equipes, turmas e projetos.</p></article><article class="feature"><div class="feature-symbol">▧</div><h3>Diferentes formatos</h3><p>Camisetas tradicionais, regatas, polos e moletons exibidos no portfólio.</p></article><article class="feature"><div class="feature-symbol">↗</div><h3>Orçamento pelo WhatsApp</h3><p>Converse diretamente sobre o modelo, a arte e a quantidade desejada.</p></article></div></div></section>
+<section class="section alt" id="sobre"><div class="container about-grid"><div class="about-art"><img src="assets/logo-mul-silk.webp" alt="Logo original da Mult Silk com dragão metálico" loading="lazy"></div><div class="about-copy"><span class="eyebrow">CONHEÇA NOSSA MARCA</span><h2>Uma camiseta pode contar uma história.</h2><p>Na Mult Silk Camisetas, cada arte carrega um propósito: representar uma empresa, celebrar uma turma ou dar personalidade a um grupo.</p><p>Neste site, você encontra fotografias de peças e mockups ilustrativos para conhecer possibilidades de personalização. Compartilhe seu projeto e solicite um orçamento.</p><ul><li>Peças para equipes e atividades esportivas</li><li>Uniformes e camisetas para eventos</li><li>Estampas personalizadas e presentes especiais</li></ul></div></div></section>
+<section class="section" id="contato"><div class="container"><div class="cta"><div><span class="eyebrow" style="color:#b8dcca">VAMOS CONVERSAR?</span><h2>Seu próximo projeto começa aqui.</h2><p>Envie sua ideia e consulte um orçamento pelo WhatsApp: <strong>(16) 98137-3999</strong>.</p></div><button class="btn" data-quote="um orçamento personalizado">Conversar no WhatsApp ↗</button></div></div></section>
+</main>
+<footer><div class="container"><div class="footer-grid"><div><a class="brand" href="#inicio"><img src="assets/logo-mul-silk.webp" alt="" width="60" height="60"><span>MULT SILK<small>CAMISETAS</small></span></a><p>Camisetas personalizadas para destacar sua ideia, sua marca e seus melhores momentos.</p></div><div class="footer-links"><a href="#inicio">Início</a><a href="#catalogo">Portfólio</a><a href="#personalizar">Personalizar</a><a href="#contato">Contato</a></div></div><div class="copy">© <span id="year"></span> Mult Silk Camisetas. Imagens de portfólio fornecidas pela empresa; mockups identificados como ilustrativos. Marcas de terceiros pertencem aos respectivos titulares. Site de catálogo, sem compra e pagamento online.</div></div></footer>
+<button class="floating-wa" data-quote="um orçamento personalizado" aria-label="Solicitar orçamento pelo WhatsApp">✆ &nbsp; WhatsApp</button>
+<div class="overlay" id="viewerOverlay" role="dialog" aria-modal="true" aria-label="Fotos do produto"><div class="lightbox"><button class="close" data-close="viewerOverlay" aria-label="Fechar galeria">×</button><div class="lightbox-photo"><img id="viewerImg" alt=""><div class="viewer-controls"><button id="prevPhoto" aria-label="Foto anterior">‹</button><button id="nextPhoto" aria-label="Próxima foto">›</button></div></div><div class="lightbox-copy"><span class="eyebrow" id="viewerBadge">PORTFÓLIO</span><h3 id="viewerName"></h3><p id="viewerDescription"></p><div class="view-label" id="viewerLabel"></div><div class="thumbs" id="viewerThumbs"></div><button class="btn" id="viewerQuote">Solicitar orçamento ↗</button></div></div></div>
+<div class="overlay" id="quoteOverlay" role="dialog" aria-modal="true" aria-labelledby="quoteTitle"><div class="quote"><button class="close" data-close="quoteOverlay" aria-label="Fechar formulário">×</button><h3 id="quoteTitle">Solicite seu orçamento</h3><p id="quoteDesc">Conte um pouco sobre seu pedido. O WhatsApp será aberto com sua mensagem pronta.</p><label for="clientName">Seu nome (opcional)</label><input id="clientName" autocomplete="name" placeholder="Como podemos chamar você?"><label for="quantity">Quantidade desejada (opcional)</label><input id="quantity" placeholder="Ex.: 20 camisetas"><button class="btn" id="sendQuote">Continuar para WhatsApp ↗</button><small>Você poderá revisar a mensagem antes de enviá-la. Orçamento sem pagamento pelo site.</small></div></div>
+<script src="catalogo-data.js"></script>
+<script>
+const products = Array.isArray(window.MULT_SILK_PRODUCTS) ? window.MULT_SILK_PRODUCTS : [{"id":"vidativa","name":"Camiseta de corrida VidAtiva","category":"esporte","subtitle":"Personalização esportiva com diferentes vistas de frente, costas e mangas.","images":[{"src":"assets/premium/vidativa-1.webp","label":"Prévia estilizada — frente","isPreview":true},{"src":"assets/premium/vidativa-2.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/foto-32.webp","label":"Frente"},{"src":"assets/foto-39.webp","label":"Frente — outro ângulo"},{"src":"assets/foto-31.webp","label":"Manga e lateral"},{"src":"assets/foto-35.webp","label":"Costas"},{"src":"assets/foto-36.webp","label":"Manga personalizada"},{"src":"assets/foto-38.webp","label":"Costas — detalhe"}],"badge":"Esportivo","kind":"real","preview":true},{"id":"corrida-azul","name":"Camiseta Time Come & Corre","category":"esporte","subtitle":"Camiseta azul de corrida com detalhes em verde-limão.","images":[{"src":"assets/premium/corrida-azul-1.webp","label":"Prévia estilizada — frente","isPreview":true},{"src":"assets/premium/corrida-azul-2.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/foto-14.webp","label":"Frente"},{"src":"assets/foto-15.webp","label":"Costas"}],"badge":"Esportivo","kind":"real","preview":true},{"id":"regata-azul","name":"Regata Time Come & Corre","category":"esporte","subtitle":"Regata esportiva com acabamentos contrastantes e estampa completa.","images":[{"src":"assets/premium/regata-azul-1.webp","label":"Prévia estilizada","isPreview":true},{"src":"assets/foto-23.webp","label":"Frente"},{"src":"assets/foto-25.webp","label":"Frente — lateral"},{"src":"assets/foto-20.webp","label":"Frente — detalhe"},{"src":"assets/foto-28.webp","label":"Costas"},{"src":"assets/foto-26.webp","label":"Costas — lateral"}],"badge":"Esportivo","kind":"real","preview":true},{"id":"senai","name":"Regata SENAI São Carlos","category":"uniformes","subtitle":"Regata personalizada em tons quentes, com frente e costas.","images":[{"src":"assets/premium/senai-1.webp","label":"Prévia estilizada — frente","isPreview":true},{"src":"assets/premium/senai-2.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/foto-33.webp","label":"Frente"},{"src":"assets/foto-30.webp","label":"Costas"}],"badge":"Uniforme","kind":"real","preview":true},{"id":"nativa-branca","name":"Nativa FM 93,1 — branca e roxa","category":"uniformes","subtitle":"Camiseta personalizada com identidade visual da rádio.","images":[{"src":"assets/foto-00.webp","label":"Frente"},{"src":"assets/foto-01.webp","label":"Costas"},{"src":"assets/foto-02.webp","label":"Modelos lado a lado"},{"src":"assets/foto-04.webp","label":"Costas — conjunto"}],"badge":"Uniforme","kind":"real","preview":false},{"id":"nativa-roxa","name":"Nativa FM 88,9 — roxa","category":"uniformes","subtitle":"Camiseta promocional em roxo com personalização de frente e costas.","images":[{"src":"assets/premium/nativa-roxa-1.webp","label":"Prévia estilizada — frente","isPreview":true},{"src":"assets/premium/nativa-roxa-2.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/foto-06.webp","label":"Frente"},{"src":"assets/foto-05.webp","label":"Costas"}],"badge":"Uniforme","kind":"real","preview":true},{"id":"nativa-polo","name":"Nativa FM 93,1 — polo","category":"uniformes","subtitle":"Polo personalizada em roxo, com logo aplicado no peito.","images":[{"src":"assets/foto-03.webp","label":"Frente"},{"src":"assets/foto-07.webp","label":"Costas"}],"badge":"Uniforme","kind":"real","preview":false},{"id":"terceirao-pantera","name":"Terceirão 2026 — Pantera","category":"formaturas","subtitle":"Camiseta de formatura com arte de pantera e detalhes nas mangas.","images":[{"src":"assets/premium/terceirao-pantera-1.webp","label":"Prévia estilizada — frente","isPreview":true},{"src":"assets/premium/terceirao-pantera-2.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/premium/terceirao-pantera-3.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/foto-16.webp","label":"Frente"},{"src":"assets/foto-17.webp","label":"Costas"},{"src":"assets/foto-22.webp","label":"Detalhe lateral"}],"badge":"Terceirão","kind":"real","preview":true},{"id":"terceirao-luiz","name":"Terceirão 2026 — Luiz","category":"formaturas","subtitle":"Camiseta preta de formatura com estampa frontal e arte nas costas.","images":[{"src":"assets/premium/terceirao-luiz-1.webp","label":"Prévia estilizada — frente","isPreview":true},{"src":"assets/premium/terceirao-luiz-2.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/foto-18.webp","label":"Frente"},{"src":"assets/foto-19.webp","label":"Frente — outro ângulo"},{"src":"assets/foto-21.webp","label":"Costas"},{"src":"assets/foto-24.webp","label":"Costas — detalhe"}],"badge":"Terceirão","kind":"real","preview":true},{"id":"moletom","name":"Moletom Terceirão 2026","category":"formaturas","subtitle":"Moletom preto com capuz e aplicação no peito e nas costas.","images":[{"src":"assets/premium/moletom-1.webp","label":"Prévia estilizada — frente","isPreview":true},{"src":"assets/premium/moletom-2.webp","label":"Prévia estilizada — outra vista","isPreview":true},{"src":"assets/foto-34.webp","label":"Frente"},{"src":"assets/foto-27.webp","label":"Frente — lateral"},{"src":"assets/foto-29.webp","label":"Costas"}],"badge":"Moletom","kind":"real","preview":true},{"id":"brothers","name":"Friends and Brothers — rock","category":"estampas","subtitle":"Camiseta temática com guitarra, discos e estampa nas costas.","images":[{"src":"assets/premium/brothers-1.webp","label":"Prévia estilizada","isPreview":true},{"src":"assets/foto-08.webp","label":"Frente"},{"src":"assets/foto-11.webp","label":"Costas"}],"badge":"Estampa","kind":"real","preview":true},{"id":"brothers-1972","name":"Brothers 1972","category":"estampas","subtitle":"Estampa comemorativa em camiseta preta.","images":[{"src":"assets/premium/brothers-1972-1.webp","label":"Prévia estilizada","isPreview":true},{"src":"assets/foto-10.webp","label":"Frente"}],"badge":"Estampa","kind":"real","preview":true},{"id":"classic-1971","name":"1971 Classic","category":"estampas","subtitle":"Estampa retrô com fita cassete em camiseta preta.","images":[{"src":"assets/premium/classic-1971-1.webp","label":"Prévia estilizada","isPreview":true},{"src":"assets/foto-12.webp","label":"Frente"}],"badge":"Estampa","kind":"real","preview":true},{"id":"pink-floyd","name":"Camiseta temática — Pink Floyd","category":"estampas","subtitle":"Exemplo fotográfico de camiseta com estampa temática.","images":[{"src":"assets/premium/pink-floyd-1.webp","label":"Prévia estilizada","isPreview":true},{"src":"assets/foto-09.webp","label":"Frente — lateral"}],"badge":"Estampa","kind":"real","preview":true},{"id":"the-cure","name":"Camiseta temática — The Cure","category":"estampas","subtitle":"Exemplo fotográfico de camiseta branca com arte de banda.","images":[{"src":"assets/foto-13.webp","label":"Frente"}],"badge":"Estampa","kind":"real","preview":false},{"id":"brasil","name":"Camiseta seleção brasileira","category":"esporte","subtitle":"Exemplo de camiseta esportiva amarela.","images":[{"src":"assets/foto-37.webp","label":"Frente"}],"badge":"Esportivo","kind":"real","preview":false},{"id":"personalizar","name":"Sua estampa, do seu jeito","category":"personalizacao","subtitle":"Modelos ilustrativos para definir tamanho e posição da estampa.","images":[{"src":"assets/personalizacao.webp","label":"Frente, costas e detalhe"},{"src":"assets/layout-pequena.webp","label":"Estampa frontal pequena"},{"src":"assets/layout-grande.webp","label":"Estampa frontal grande"},{"src":"assets/layout-costa.webp","label":"Costas lisas"}],"badge":"Modelo ilustrativo","kind":"mockup","preview":false},{"id":"marca","name":"Camiseta conceitual Mult Silk","category":"personalizacao","subtitle":"Mockup com a identidade visual e o dragão da marca.","images":[{"src":"assets/exemplo-marca.webp","label":"Frente, costas e detalhes"}],"badge":"Modelo ilustrativo","kind":"mockup","preview":false}];
+const WHATSAPP='5516981373999';
+const esc=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const categoryLabels={esporte:'Esporte e corrida',uniformes:'Uniformes',formaturas:'Formaturas e eventos',estampas:'Estampas e temas',personalizacao:'Personalização'};
+let currentFilter='todos',currentSearch='',activeProduct=null,activePhoto=0,quoteSubject='um orçamento personalizado';
+const $=id=>document.getElementById(id);
+function render(){const terms=currentSearch.trim().toLocaleLowerCase('pt-BR');const shown=products.filter(p=>(currentFilter==='todos'||p.category===currentFilter)&&(!terms||(p.name+' '+p.subtitle+' '+categoryLabels[p.category]).toLocaleLowerCase('pt-BR').includes(terms)));$('resultCount').textContent=shown.length+' '+(shown.length===1?'modelo':'modelos')+' em exibição';$('products').innerHTML=shown.length?shown.map(p=>`<article class="product"><div class="product-photo" data-view="${p.id}" role="button" tabindex="0" aria-label="Ver fotos de ${esc(p.name)}"><img src="${p.images[0].src}" alt="${esc(p.name)} — ${esc(p.images[0].label)}" loading="lazy"><span class="tag">${esc(p.badge)}</span>${p.preview?'<span class="preview-label">Prévia ilustrativa</span>':''}${p.images.length>1?`<span class="photo-count">▧ ${p.images.length} imagens</span>`:''}</div><div class="product-info"><small>${esc(categoryLabels[p.category])}</small><h3>${esc(p.name)}</h3><p>${esc(p.subtitle)}</p><div class="card-actions"><button class="btn btn-outline" data-view="${p.id}">Ver fotos</button><button class="btn" data-quote="${esc(p.name)}">Orçamento ↗</button></div></div></article>`).join(''):'<div class="no-results">Nenhum modelo encontrado. Experimente outra categoria ou termo.</div>'}
+function openOverlay(id){$(id).classList.add('open');document.body.style.overflow='hidden';$(id).querySelector('.close')?.focus()}
+function closeOverlay(id){$(id).classList.remove('open');if(!document.querySelector('.overlay.open')) document.body.style.overflow=''}
+function showPhoto(){if(!activeProduct)return;const images=activeProduct.images,img=images[activePhoto];$('viewerImg').src=img.src;$('viewerImg').alt=activeProduct.name+' — '+img.label;$('viewerLabel').textContent=(activePhoto+1)+' de '+images.length+' • '+img.label;$('viewerBadge').textContent=img.isPreview?'PRÉVIA ESTILIZADA • IMAGEM ILUSTRATIVA':(activeProduct.kind==='mockup'?'MODELO ILUSTRATIVO':'FOTOGRAFIA ORIGINAL DO PRODUTO');$('viewerThumbs').innerHTML=images.map((im,i)=>`<button class="${i===activePhoto?'active':''}" data-photo="${i}" aria-label="Ver foto ${i+1}: ${esc(im.label)}" aria-pressed="${i===activePhoto}"><img src="${im.src}" alt="" loading="lazy"></button>`).join('');$('prevPhoto').hidden=images.length<2;$('nextPhoto').hidden=images.length<2}
+function viewProduct(id){activeProduct=products.find(p=>p.id===id);if(!activeProduct)return;activePhoto=0;$('viewerBadge').textContent=activeProduct.kind==='mockup'?'MODELO ILUSTRATIVO':'FOTOS ORIGINAIS E PRÉVIAS';$('viewerName').textContent=activeProduct.name;$('viewerDescription').textContent=activeProduct.subtitle;showPhoto();openOverlay('viewerOverlay')}
+function openQuote(subject){quoteSubject=subject;$('quoteDesc').textContent='Pedido: '+subject+'. Informe os dados opcionais e continue para o WhatsApp.';openOverlay('quoteOverlay');$('clientName').focus()}
+document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{currentFilter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});render()}));
+document.querySelectorAll('[data-jump]').forEach(a=>a.addEventListener('click',()=>{const target=document.querySelector('[data-filter="'+a.dataset.jump+'"]');if(target)target.click()}));
+$('search').addEventListener('input',e=>{currentSearch=e.target.value;render()});
+document.addEventListener('click',e=>{const close=e.target.closest('[data-close]');if(close){closeOverlay(close.dataset.close);return}const photo=e.target.closest('[data-photo]');if(photo){activePhoto=Number(photo.dataset.photo);showPhoto();return}const view=e.target.closest('[data-view]');if(view){viewProduct(view.dataset.view);return}const quote=e.target.closest('[data-quote]');if(quote){openQuote(quote.dataset.quote);return}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.overlay.open').forEach(o=>closeOverlay(o.id));if($('viewerOverlay').classList.contains('open')){if(e.key==='ArrowRight'){activePhoto=(activePhoto+1)%activeProduct.images.length;showPhoto()}if(e.key==='ArrowLeft'){activePhoto=(activePhoto-1+activeProduct.images.length)%activeProduct.images.length;showPhoto()}}if((e.key==='Enter'||e.key===' ')&&e.target.matches('.product-photo[data-view]')){e.preventDefault();viewProduct(e.target.dataset.view)}});
+document.querySelectorAll('.overlay').forEach(o=>o.addEventListener('click',e=>{if(e.target===o)closeOverlay(o.id)}));
+$('prevPhoto').addEventListener('click',()=>{activePhoto=(activePhoto-1+activeProduct.images.length)%activeProduct.images.length;showPhoto()});
+$('nextPhoto').addEventListener('click',()=>{activePhoto=(activePhoto+1)%activeProduct.images.length;showPhoto()});
+$('viewerQuote').addEventListener('click',()=>{const name=activeProduct.name;closeOverlay('viewerOverlay');openQuote(name)});
+$('sendQuote').addEventListener('click',()=>{const name=$('clientName').value.trim(),quantity=$('quantity').value.trim();const msg=['Olá! Gostaria de solicitar um orçamento na Mult Silk Camisetas.','Modelo de interesse: '+quoteSubject+'.',name?'Meu nome: '+name+'.':'',quantity?'Quantidade aproximada: '+quantity+'.':'','Gostaria de mais informações.'].filter(Boolean).join('\n');window.open('https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(msg),'_blank','noopener,noreferrer');closeOverlay('quoteOverlay')});
+$('year').textContent=new Date().getFullYear();
+const menu=$('menuBtn');menu.addEventListener('click',()=>{const open=$('navlinks').classList.toggle('open');menu.textContent=open?'×':'☰';menu.setAttribute('aria-expanded',String(open))});document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>{$('navlinks').classList.remove('open');menu.textContent='☰';menu.setAttribute('aria-expanded','false')}));
+render();
+</script>
+</body>
+</html>

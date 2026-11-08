@@ -1,0 +1,481 @@
+/* Catálogo da MULT SILK CAMISETAS — editado pelo painel visual. */
+window.MULT_SILK_PRODUCTS = [
+  {
+    "id": "vidativa",
+    "name": "Camiseta de corrida VidAtiva",
+    "category": "esporte",
+    "subtitle": "Personalização esportiva com diferentes vistas de frente, costas e mangas.",
+    "images": [
+      {
+        "src": "assets/premium/vidativa-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/vidativa-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-32.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-39.webp",
+        "label": "Frente — outro ângulo"
+      },
+      {
+        "src": "assets/foto-31.webp",
+        "label": "Manga e lateral"
+      },
+      {
+        "src": "assets/foto-35.webp",
+        "label": "Costas"
+      },
+      {
+        "src": "assets/foto-36.webp",
+        "label": "Manga personalizada"
+      },
+      {
+        "src": "assets/foto-38.webp",
+        "label": "Costas — detalhe"
+      }
+    ],
+    "badge": "Esportivo",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "corrida-azul",
+    "name": "Camiseta Time Come & Corre",
+    "category": "esporte",
+    "subtitle": "Camiseta azul de corrida com detalhes em verde-limão.",
+    "images": [
+      {
+        "src": "assets/premium/corrida-azul-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/corrida-azul-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-14.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-15.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Esportivo",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "regata-azul",
+    "name": "Regata Time Come & Corre",
+    "category": "esporte",
+    "subtitle": "Regata esportiva com acabamentos contrastantes e estampa completa.",
+    "images": [
+      {
+        "src": "assets/premium/regata-azul-1.webp",
+        "label": "Prévia estilizada",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-23.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-25.webp",
+        "label": "Frente — lateral"
+      },
+      {
+        "src": "assets/foto-20.webp",
+        "label": "Frente — detalhe"
+      },
+      {
+        "src": "assets/foto-28.webp",
+        "label": "Costas"
+      },
+      {
+        "src": "assets/foto-26.webp",
+        "label": "Costas — lateral"
+      }
+    ],
+    "badge": "Esportivo",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "senai",
+    "name": "Regata SENAI São Carlos",
+    "category": "uniformes",
+    "subtitle": "Regata personalizada em tons quentes, com frente e costas.",
+    "images": [
+      {
+        "src": "assets/premium/senai-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/senai-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-33.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-30.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "nativa-branca",
+    "name": "Nativa FM 93,1 — branca e roxa",
+    "category": "uniformes",
+    "subtitle": "Camiseta personalizada com identidade visual da rádio.",
+    "images": [
+      {
+        "src": "assets/foto-00.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-01.webp",
+        "label": "Costas"
+      },
+      {
+        "src": "assets/foto-02.webp",
+        "label": "Modelos lado a lado"
+      },
+      {
+        "src": "assets/foto-04.webp",
+        "label": "Costas — conjunto"
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "nativa-roxa",
+    "name": "Nativa FM 88,9 — roxa",
+    "category": "uniformes",
+    "subtitle": "Camiseta promocional em roxo com personalização de frente e costas.",
+    "images": [
+      {
+        "src": "assets/premium/nativa-roxa-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/nativa-roxa-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-06.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-05.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "nativa-polo",
+    "name": "Nativa FM 93,1 — polo",
+    "category": "uniformes",
+    "subtitle": "Polo personalizada em roxo, com logo aplicado no peito.",
+    "images": [
+      {
+        "src": "assets/foto-03.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-07.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "terceirao-pantera",
+    "name": "Terceirão 2026 — Pantera",
+    "category": "formaturas",
+    "subtitle": "Camiseta de formatura com arte de pantera e detalhes nas mangas.",
+    "images": [
+      {
+        "src": "assets/premium/terceirao-pantera-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/terceirao-pantera-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/terceirao-pantera-3.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-16.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-17.webp",
+        "label": "Costas"
+      },
+      {
+        "src": "assets/foto-22.webp",
+        "label": "Detalhe lateral"
+      }
+    ],
+    "badge": "Terceirão",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "terceirao-luiz",
+    "name": "Terceirão 2026 — Luiz",
+    "category": "formaturas",
+    "subtitle": "Camiseta preta de formatura com estampa frontal e arte nas costas.",
+    "images": [
+      {
+        "src": "assets/premium/terceirao-luiz-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/terceirao-luiz-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-18.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-19.webp",
+        "label": "Frente — outro ângulo"
+      },
+      {
+        "src": "assets/foto-21.webp",
+        "label": "Costas"
+      },
+      {
+        "src": "assets/foto-24.webp",
+        "label": "Costas — detalhe"
+      }
+    ],
+    "badge": "Terceirão",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "moletom",
+    "name": "Moletom Terceirão 2026",
+    "category": "formaturas",
+    "subtitle": "Moletom preto com capuz e aplicação no peito e nas costas.",
+    "images": [
+      {
+        "src": "assets/premium/moletom-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/moletom-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-34.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-27.webp",
+        "label": "Frente — lateral"
+      },
+      {
+        "src": "assets/foto-29.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Moletom",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "brothers",
+    "name": "Friends and Brothers — rock",
+    "category": "estampas",
+    "subtitle": "Camiseta temática com guitarra, discos e estampa nas costas.",
+    "images": [
+      {
+        "src": "assets/premium/brothers-1.webp",
+        "label": "Prévia estilizada",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-08.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-11.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Estampa",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "brothers-1972",
+    "name": "Brothers 1972",
+    "category": "estampas",
+    "subtitle": "Estampa comemorativa em camiseta preta.",
+    "images": [
+      {
+        "src": "assets/premium/brothers-1972-1.webp",
+        "label": "Prévia estilizada",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-10.webp",
+        "label": "Frente"
+      }
+    ],
+    "badge": "Estampa",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "classic-1971",
+    "name": "1971 Classic",
+    "category": "estampas",
+    "subtitle": "Estampa retrô com fita cassete em camiseta preta.",
+    "images": [
+      {
+        "src": "assets/premium/classic-1971-1.webp",
+        "label": "Prévia estilizada",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-12.webp",
+        "label": "Frente"
+      }
+    ],
+    "badge": "Estampa",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "pink-floyd",
+    "name": "Camiseta temática — Pink Floyd",
+    "category": "estampas",
+    "subtitle": "Exemplo fotográfico de camiseta com estampa temática.",
+    "images": [
+      {
+        "src": "assets/premium/pink-floyd-1.webp",
+        "label": "Prévia estilizada",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-09.webp",
+        "label": "Frente — lateral"
+      }
+    ],
+    "badge": "Estampa",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "the-cure",
+    "name": "Camiseta temática — The Cure",
+    "category": "estampas",
+    "subtitle": "Exemplo fotográfico de camiseta branca com arte de banda.",
+    "images": [
+      {
+        "src": "assets/foto-13.webp",
+        "label": "Frente"
+      }
+    ],
+    "badge": "Estampa",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "brasil",
+    "name": "Camiseta seleção brasileira",
+    "category": "esporte",
+    "subtitle": "Exemplo de camiseta esportiva amarela.",
+    "images": [
+      {
+        "src": "assets/foto-37.webp",
+        "label": "Frente"
+      }
+    ],
+    "badge": "Esportivo",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "personalizar",
+    "name": "Sua estampa, do seu jeito",
+    "category": "personalizacao",
+    "subtitle": "Modelos ilustrativos para definir tamanho e posição da estampa.",
+    "images": [
+      {
+        "src": "assets/personalizacao.webp",
+        "label": "Frente, costas e detalhe"
+      },
+      {
+        "src": "assets/layout-pequena.webp",
+        "label": "Estampa frontal pequena"
+      },
+      {
+        "src": "assets/layout-grande.webp",
+        "label": "Estampa frontal grande"
+      },
+      {
+        "src": "assets/layout-costa.webp",
+        "label": "Costas lisas"
+      }
+    ],
+    "badge": "Modelo ilustrativo",
+    "kind": "mockup",
+    "preview": false
+  },
+  {
+    "id": "marca",
+    "name": "Camiseta conceitual Mult Silk",
+    "category": "personalizacao",
+    "subtitle": "Mockup com a identidade visual e o dragão da marca.",
+    "images": [
+      {
+        "src": "assets/exemplo-marca.webp",
+        "label": "Frente, costas e detalhes"
+      }
+    ],
+    "badge": "Modelo ilustrativo",
+    "kind": "mockup",
+    "preview": false
+  }
+];
