@@ -7,7 +7,7 @@
 <link rel="icon" href="assets/favicon.png">
 <style>
 :root{--green:#21563e;--dark:#162820;--paper:#f5f7f4;--line:#dce4dd;--muted:#64746a}
-*{box-sizing:border-box}body{margin:0;color:var(--dark);background:var(--paper);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;color:var(--dark);background:var(--paper);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
 button,input,textarea,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.5;cursor:wait}input,textarea,select{width:100%;padding:12px;border-radius:10px;border:1px solid #c7d2c9;background:white;outline-offset:2px}textarea{min-height:100px;resize:vertical}label{display:block;font-weight:650;font-size:13px;margin-bottom:6px}
 button,.btn{border:0;border-radius:10px;padding:11px 16px;background:var(--green);color:white;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:7px}
 .btn-light{background:#e9f1e9;color:var(--green)}.btn-danger{background:#fff1f0;color:#a73537}.btn-outline{background:transparent;color:var(--green);border:1px solid #c8d5cb}
@@ -148,7 +148,7 @@ function renderPhotos(){
   $('photos').innerHTML=p.images.map((im,i)=>'<div class="photo" data-index="'+i+'"><img src="'+escapeHTML(previews[im.src]||im.src)+'" alt="Foto '+(i+1)+'"><input type="text" aria-label="Legenda da foto '+(i+1)+'" value="'+escapeHTML(im.label)+'"><label style="font-weight:normal;margin:8px 0"><input type="checkbox" style="width:auto" '+(im.isPreview?'checked':'')+'> Imagem ilustrativa</label><div class="photo-controls"><button type="button" class="btn-light" data-move="-1" data-i="'+i+'" '+(i===0?'disabled':'')+' aria-label="Mover foto para cima">↑</button><button type="button" class="btn-light" data-move="1" data-i="'+i+'" '+(i===p.images.length-1?'disabled':'')+' aria-label="Mover foto para baixo">↓</button><button type="button" class="btn-danger" data-remove="'+i+'">Excluir</button></div></div>').join('')||'<p class="muted">Envie pelo menos uma foto para publicar esta camiseta.</p>';
 }
 $('catalog').addEventListener('click',e=>{const btn=e.target.closest('[data-select]');if(!btn)return;collectEditor();selectedId=btn.dataset.select;render();});
-$('search').addEventListener('input',render);
+$('search').addEventListener('input',()=>{collectEditor();render();});
 $('editor').addEventListener('input',()=>{changed=true;});
 $('editor').addEventListener('change',()=>{changed=true;});
 $('editor').addEventListener('submit',e=>{e.preventDefault();collectEditor();changed=true;render();notify('Edição aplicada. Clique em “Salvar e publicar” para enviar ao site.');});
