@@ -1,0 +1,9 @@
+{
+  "name": "mult-silk-camisetas-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Site com painel administrativo e atendente virtual",
+  "engines": {
+    "node": ">=20"
+  }
+}

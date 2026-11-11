@@ -1,18 +1,9 @@
-CORREÇÃO DAS FOTOS DA MULT SILK CAMISETAS
+MULT SILK CAMISETAS — NOVO PAINEL + ATENDENTE COM IA
 
-1) EXTRAIA todos os arquivos deste ZIP.
-2) NO GITHUB, abra multsilkcamisetas-beep/mult-silk-camisetas.
-3) Add file -> Upload files.
-4) Arraste tudo que está DENTRO da pasta extraída, incluindo a pasta 'assets' (COM TODAS as fotos), o index.html e o catalogo-data.js.
-5) Clique Commit changes. A Vercel deve atualizar o site.
+1. Esta atualização é testada na branch melhorias-painel-ia.
+2. Quando aprovada, mescle a pull request na main.
+3. Vercel Settings > Environment Variables: ADMIN_PASSWORD (12+ caracteres), SESSION_SECRET (32+ caracteres) e GITHUB_TOKEN (fine-grained apenas para este repositório com Contents Read and write).
+4. Para ativar IA, adicione OPENAI_API_KEY. A API OpenAI tem cobrança separada do ChatGPT.
+5. Redeploy na Vercel após salvar as variáveis.
 
-ESTRUTURA QUE O GITHUB DEVE TER:
-  index.html
-  catalogo-data.js
-  assets/
-    logo-mul-silk.webp
-    banner-home.webp
-    foto-00.webp ... foto-39.webp
-    premium/vidativa-1.webp ...
-
-OBS: Não envie o arquivo ZIP sem extrair.
+Não divulgue senhas e tokens no GitHub ou no chat. Consulte README.md.
