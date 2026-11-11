@@ -1,5 +1,21 @@
-/* Catálogo da MULT SILK CAMISETAS — editado pelo painel visual. */
+/* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
+  {
+    "id": "camiseta-mwcm9ql5-cz6b",
+    "name": "Camiseta em malha 100% algodão, gola redonda",
+    "category": "uniformes",
+    "subtitle": "Camiseta fabricada em malha de 100% algodão, gola redonda, estampa frente e estampa costa",
+    "images": [
+      {
+        "src": "assets/uploads/1794431940939-6119d4d70a9d.webp",
+        "label": "Mockup de Camiseta Chef Rafa em Algodão",
+        "isPreview": true
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "mockup",
+    "preview": true
+  },
   {
     "id": "vidativa",
     "name": "Camiseta de corrida VidAtiva",
