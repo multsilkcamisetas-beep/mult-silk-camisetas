@@ -22,7 +22,7 @@ h1{font-size:clamp(30px,4vw,48px);letter-spacing:-.04em;line-height:1.2;margin:1
 .tabs button[aria-selected=true]{background:var(--green);border-color:var(--green);color:#fff}
 .grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:22px;align-items:start}
 .panel{background:#fff;border:1px solid var(--line);border-radius:19px;padding:26px;box-shadow:0 10px 25px #1830220a;min-width:0}
-.diagram{width:100%;max-width:390px;display:block;margin:6px auto}.caption{font-size:13px;color:var(--muted);margin:14px 0 0}
+.diagram{width:100%;max-width:390px;max-height:340px;height:auto;object-fit:contain;display:block;margin:6px auto}.caption{font-size:13px;color:var(--muted);margin:14px 0 0}
 h2{margin:0 0 17px;font-size:24px;letter-spacing:-.03em}
 .tablewrap{overflow-x:auto}.size-table{border-collapse:collapse;width:100%;text-align:center;white-space:nowrap}
 .size-table th,.size-table td{padding:12px 10px;border-bottom:1px solid #e2e8e2}
@@ -49,18 +49,8 @@ h2{margin:0 0 17px;font-size:24px;letter-spacing:-.03em}
 </div>
 <div class="grid">
 <section class="panel" aria-label="Como medir a peça">
-<svg class="diagram" role="img" aria-label="Ilustração de peça aberta, mostrando como medir a largura e a altura" viewBox="0 0 350 300" xmlns="http://www.w3.org/2000/svg">
-<path d="M121 40 L151 24 Q175 44 199 24 L229 40 L314 92 L274 146 L243 126 L243 266 L107 266 L107 126 L76 146 L36 92 Z" fill="#eff2ee" stroke="#425c4d" stroke-width="3" stroke-linejoin="round"/>
-<path id="hood" d="M151 24 Q139 2 175 2 Q211 2 199 24 Q175 44 151 24" fill="#d9e6dc" stroke="#425c4d" stroke-width="2.5" style="display:none"/>
-<path d="M151 24 Q175 45 199 24" fill="none" stroke="#425c4d" stroke-width="2"/>
-<line x1="111" y1="160" x2="239" y2="160" stroke="#d74646" stroke-width="3"/>
-<path d="M111 160 L121 153 L121 167 Z M239 160 L229 153 L229 167 Z" fill="#d74646"/>
-<text x="175" y="148" text-anchor="middle" font-size="15" font-weight="700" fill="#b52e2e">LARGURA</text>
-<line x1="88" y1="39" x2="88" y2="266" stroke="#405aa4" stroke-width="3"/>
-<path d="M88 39 L81 50 L95 50 Z M88 266 L81 255 L95 255 Z" fill="#405aa4"/>
-<text x="73" y="154" transform="rotate(-90 73 154)" text-anchor="middle" font-size="15" font-weight="700" fill="#354a90">ALTURA</text>
-</svg>
-<p class="caption">Desenho esquemático. Estenda a peça sobre uma superfície plana, sem esticar o tecido. Meça a largura de uma lateral à outra e a altura na vertical. Para baby look e moletom, confira também as medidas adicionais da tabela.</p>
+<img class="diagram" id="sizeDrawing" src="assets/camiseta-tradicional.png" alt="Desenho original da camiseta tradicional com indicações de altura e largura" width="410" height="320">
+<p class="caption">Desenho original fornecido pela Mult Silk Camisetas. Estenda a peça sobre uma superfície plana, sem esticar o tecido, e confira no desenho como tirar as medidas.</p>
 </section>
 <section class="panel" aria-live="polite">
 <h2 id="chartTitle">Camiseta tradicional</h2>
@@ -87,7 +77,16 @@ function selectChart(key){
  document.getElementById('chartHead').innerHTML='<tr>'+c.cols.map(t=>'<th scope="col">'+t+'</th>').join('')+'</tr>';
  document.getElementById('chartBody').innerHTML=c.rows.map(r=>'<tr>'+r.map((v,i)=>'<td>'+(i===0?v:v+' cm')+'</td>').join('')+'</tr>').join('');
  document.getElementById('chartNote').textContent=c.note;
- document.getElementById('hood').style.display=key==='moletom'?'':'none';
+ const diagramFiles={
+  camiseta:['assets/camiseta-tradicional.png','Camiseta tradicional: desenho original mostrando altura e largura'],
+  baby:['assets/baby-look.png','Baby Look: desenho original mostrando altura, peito, meio e barra'],
+  infantil:['assets/camiseta-infantil.png','Camiseta infantil: desenho original mostrando altura e largura'],
+  moletom:['assets/moletom.png','Moletom: desenho original mostrando manga, ombro, largura e altura']
+ };
+ const [file,description]=diagramFiles[key];
+ const drawing=document.getElementById('sizeDrawing');
+ drawing.src=file;
+ drawing.alt=description;
 }
 document.querySelectorAll('[data-chart]').forEach(b=>b.addEventListener('click',()=>{selectChart(b.dataset.chart);history.replaceState(null,'','#'+b.dataset.chart)}));
 selectChart(location.hash.slice(1));
