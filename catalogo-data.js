@@ -1,6 +1,33 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
+    "id": "camiseta-mwdh2bwj-qavi",
+    "name": "Moletom",
+    "category": "formaturas",
+    "subtitle": "Blusa de moletom preto, moletom flanelado PA.",
+    "images": [
+      {
+        "src": "assets/uploads/1794514681893-d6774b7e780c.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_21-4"
+      },
+      {
+        "src": "assets/uploads/1794514683777-4be75f4bc11c.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_19-2"
+      },
+      {
+        "src": "assets/uploads/1794514685532-b1549f0438e7.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_20-3"
+      },
+      {
+        "src": "assets/uploads/1794514687355-d60c88626d62.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_19-1"
+      }
+    ],
+    "badge": "Moletom escolar",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "camiseta-mwcm9ql5-cz6b",
     "name": "Camiseta em malha 100% algodão, gola redonda",
     "category": "uniformes",
