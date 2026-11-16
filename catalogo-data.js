@@ -1,6 +1,21 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
+    "id": "camiseta-mwjpxwd5-2fie",
+    "name": "Camiseta em malha 100% algodão",
+    "category": "formaturas",
+    "subtitle": "Camiseta em malha 100% algodão na cor beje, gola redonda, estampa em DTF",
+    "images": [
+      {
+        "src": "assets/uploads/1794861160739-3ac886f3b911.webp",
+        "label": "Imagem Real do Produto"
+      }
+    ],
+    "badge": "Camiseta Grupo",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "camiseta-mwjpmhyj-597h",
     "name": "Moletom Educação Física",
     "category": "formaturas",
