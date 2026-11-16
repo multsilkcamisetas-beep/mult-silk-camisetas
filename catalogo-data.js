@@ -1,6 +1,21 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
+    "id": "camiseta-mwjpe4r0-pljb",
+    "name": "Moletom azul bebê Nono Ano",
+    "category": "formaturas",
+    "subtitle": "Blusa de Moletom flanelado, bolso canguru, capuz com forro personalizado com assinaturas dos alunos.",
+    "images": [
+      {
+        "src": "assets/uploads/1794860285891-fa3ca84c4412.webp",
+        "label": "Imagem do ChatGPT 16 de nov. de 2026, 10_42_32-3"
+      }
+    ],
+    "badge": "Moletom de Formandos",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "camiseta-mwdh2bwj-qavi",
     "name": "Moletom",
     "category": "formaturas",
