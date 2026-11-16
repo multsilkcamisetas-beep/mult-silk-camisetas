@@ -8,7 +8,7 @@ window.MULT_SILK_PRODUCTS = [
     "images": [
       {
         "src": "assets/uploads/1794860285891-fa3ca84c4412.webp",
-        "label": "Imagem do ChatGPT 16 de nov. de 2026, 10_42_32-3"
+        "label": "Imagem real"
       }
     ],
     "badge": "Moletom de Formandos",
