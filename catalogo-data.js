@@ -297,7 +297,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "terceirao-luiz",
-    "name": "Terceirão 2026 — Luiz",
+    "name": "Nono Ano 2026",
     "category": "formaturas",
     "subtitle": "Camiseta preta de formatura com estampa frontal e arte nas costas.",
     "images": [
