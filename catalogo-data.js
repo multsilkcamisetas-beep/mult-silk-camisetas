@@ -1,6 +1,21 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
+    "id": "camiseta-mwjpmhyj-597h",
+    "name": "Moletom Educação Física",
+    "category": "formaturas",
+    "subtitle": "Blusa de Moletom Off White Flanelado, com bolso canguru e capuz com cordão preto",
+    "images": [
+      {
+        "src": "assets/uploads/1794860912006-26c10fd82a03.webp",
+        "label": "Imagem Real do Moletom"
+      }
+    ],
+    "badge": "Moletom Educação Física",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "camiseta-mwjpe4r0-pljb",
     "name": "Moletom azul bebê Nono Ano",
     "category": "formaturas",
