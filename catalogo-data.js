@@ -2,7 +2,7 @@
 window.MULT_SILK_PRODUCTS = [
   {
     "id": "vidativa",
-    "name": "Camiseta de corrida VidAtiva",
+    "name": "Camiseta esportiva de corrida — VidAtiva",
     "category": "esporte",
     "subtitle": "Personalização esportiva com diferentes vistas de frente, costas e mangas.",
     "images": [
@@ -47,8 +47,8 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "camiseta-mwjpxwd5-2fie",
-    "name": "Camiseta em malha 100% algodão",
-    "category": "formaturas",
+    "name": "Camiseta bege 100% algodão — estampa DTF",
+    "category": "estampas",
     "subtitle": "Camiseta em malha 100% algodão na cor beje, gola redonda, estampa em DTF",
     "images": [
       {
@@ -62,7 +62,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "camiseta-mwjpmhyj-597h",
-    "name": "Moletom Educação Física",
+    "name": "Moletom off-white — Educação Física",
     "category": "formaturas",
     "subtitle": "Blusa de Moletom Off White Flanelado, com bolso canguru e capuz com cordão preto",
     "images": [
@@ -77,7 +77,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "camiseta-mwjpe4r0-pljb",
-    "name": "Moletom azul bebê Nono Ano",
+    "name": "Moletom azul-bebê — Nono Ano 2026",
     "category": "formaturas",
     "subtitle": "Blusa de Moletom flanelado, bolso canguru, capuz com forro personalizado com assinaturas dos alunos.",
     "images": [
@@ -92,7 +92,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "camiseta-mwcm9ql5-cz6b",
-    "name": "Camiseta em malha 100% algodão, gola redonda",
+    "name": "Camiseta Chef Rafa 100% algodão — frente e costas",
     "category": "uniformes",
     "subtitle": "Camiseta fabricada em malha de 100% algodão, gola redonda, estampa frente e estampa costa",
     "images": [
@@ -108,7 +108,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "nativa-roxa",
-    "name": "Nativa FM 88,9 — roxa",
+    "name": "Camiseta promocional roxa — Nativa FM 88,9",
     "category": "uniformes",
     "subtitle": "Camiseta promocional em roxo com personalização de frente e costas.",
     "images": [
@@ -137,7 +137,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "terceirao-pantera",
-    "name": "Terceirão 2026 — Pantera",
+    "name": "Camiseta Terceirão 2026 — Pantera",
     "category": "formaturas",
     "subtitle": "Camiseta de formatura com arte de pantera e detalhes nas mangas.",
     "images": [
@@ -175,7 +175,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "camiseta-mwdh2bwj-qavi",
-    "name": "Moletom",
+    "name": "Moletom escolar preto — flanelado",
     "category": "formaturas",
     "subtitle": "Blusa de moletom preto, moletom flanelado PA.",
     "images": [
@@ -202,7 +202,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "corrida-azul",
-    "name": "Camiseta Time Come & Corre",
+    "name": "Camiseta de corrida azul — Come & Corre",
     "category": "esporte",
     "subtitle": "Camiseta azul de corrida com detalhes em verde-limão.",
     "images": [
@@ -231,7 +231,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "senai",
-    "name": "Regata SENAI São Carlos",
+    "name": "Regata personalizada — SENAI São Carlos",
     "category": "uniformes",
     "subtitle": "Regata personalizada em tons quentes, com frente e costas.",
     "images": [
@@ -260,7 +260,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "nativa-branca",
-    "name": "Nativa FM 93,1 — branca e roxa",
+    "name": "Camiseta branca e roxa — Nativa FM 93,1",
     "category": "uniformes",
     "subtitle": "Camiseta personalizada com identidade visual da rádio.",
     "images": [
@@ -287,7 +287,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "terceirao-luiz",
-    "name": "Nono Ano 2026",
+    "name": "Camiseta de formatura — Nono Ano 2026",
     "category": "formaturas",
     "subtitle": "Camiseta preta de formatura com estampa frontal e arte nas costas.",
     "images": [
@@ -324,7 +324,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "moletom",
-    "name": "Moletom Terceirão 2026",
+    "name": "Moletom preto — Terceirão 2026",
     "category": "formaturas",
     "subtitle": "Moletom preto com capuz e aplicação no peito e nas costas.",
     "images": [
@@ -357,7 +357,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "regata-azul",
-    "name": "Regata Time Come & Corre",
+    "name": "Regata esportiva — Come & Corre",
     "category": "esporte",
     "subtitle": "Regata esportiva com acabamentos contrastantes e estampa completa.",
     "images": [
@@ -393,7 +393,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "nativa-polo",
-    "name": "Nativa FM 93,1 — polo",
+    "name": "Camisa polo roxa — Nativa FM 93,1",
     "category": "uniformes",
     "subtitle": "Polo personalizada em roxo, com logo aplicado no peito.",
     "images": [
@@ -412,7 +412,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "brasil",
-    "name": "Camiseta seleção brasileira",
+    "name": "Camiseta esportiva amarela — Brasil",
     "category": "esporte",
     "subtitle": "Exemplo de camiseta esportiva amarela.",
     "images": [
@@ -427,7 +427,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "brothers",
-    "name": "Friends and Brothers — rock",
+    "name": "Camiseta rock — Friends and Brothers",
     "category": "estampas",
     "subtitle": "Camiseta temática com guitarra, discos e estampa nas costas.",
     "images": [
@@ -451,7 +451,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "brothers-1972",
-    "name": "Brothers 1972",
+    "name": "Camiseta preta — Brothers 1972",
     "category": "estampas",
     "subtitle": "Estampa comemorativa em camiseta preta.",
     "images": [
@@ -471,7 +471,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "classic-1971",
-    "name": "1971 Classic",
+    "name": "Camiseta retrô 1971 Classic — fita cassete",
     "category": "estampas",
     "subtitle": "Estampa retrô com fita cassete em camiseta preta.",
     "images": [
@@ -511,7 +511,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "the-cure",
-    "name": "Camiseta temática — The Cure",
+    "name": "Camiseta branca temática — The Cure",
     "category": "estampas",
     "subtitle": "Exemplo fotográfico de camiseta branca com arte de banda.",
     "images": [
@@ -526,7 +526,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "personalizar",
-    "name": "Sua estampa, do seu jeito",
+    "name": "Personalize sua camiseta — frente e costas",
     "category": "personalizacao",
     "subtitle": "Modelos ilustrativos para definir tamanho e posição da estampa.",
     "images": [
@@ -553,7 +553,7 @@ window.MULT_SILK_PRODUCTS = [
   },
   {
     "id": "marca",
-    "name": "Camiseta conceitual Mult Silk",
+    "name": "Mockup Mult Silk Camisetas — dragão da marca",
     "category": "personalizacao",
     "subtitle": "Mockup com a identidade visual e o dragão da marca.",
     "images": [
