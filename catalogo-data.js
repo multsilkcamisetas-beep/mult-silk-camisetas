@@ -1,6 +1,37 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
+    "id": "camiseta-mwl5gnv4-erfv",
+    "name": "Camiseta de Corrida",
+    "category": "esporte",
+    "subtitle": "Camiseta de Corrida, Confeccionada em malha DRY FIT, estampagem no processo de sublimação total.",
+    "images": [
+      {
+        "src": "assets/uploads/1794947735999-a7d678a31a98.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1794947738127-c30500a0bbc6.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1794947740339-66160b72c437.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1794947742368-38169a4307b4.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1794947744481-4b64249c7915.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      }
+    ],
+    "badge": "Camiseta de Corrida",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "vidativa",
     "name": "Camiseta esportiva de corrida — VidAtiva",
     "category": "esporte",
