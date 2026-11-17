@@ -1,94 +1,6 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
-    "id": "camiseta-mwjpxwd5-2fie",
-    "name": "Camiseta em malha 100% algodão",
-    "category": "formaturas",
-    "subtitle": "Camiseta em malha 100% algodão na cor beje, gola redonda, estampa em DTF",
-    "images": [
-      {
-        "src": "assets/uploads/1794861160739-3ac886f3b911.webp",
-        "label": "Imagem Real do Produto"
-      }
-    ],
-    "badge": "Camiseta Grupo",
-    "kind": "real",
-    "preview": false
-  },
-  {
-    "id": "camiseta-mwjpmhyj-597h",
-    "name": "Moletom Educação Física",
-    "category": "formaturas",
-    "subtitle": "Blusa de Moletom Off White Flanelado, com bolso canguru e capuz com cordão preto",
-    "images": [
-      {
-        "src": "assets/uploads/1794860912006-26c10fd82a03.webp",
-        "label": "Imagem Real do Moletom"
-      }
-    ],
-    "badge": "Moletom Educação Física",
-    "kind": "real",
-    "preview": false
-  },
-  {
-    "id": "camiseta-mwjpe4r0-pljb",
-    "name": "Moletom azul bebê Nono Ano",
-    "category": "formaturas",
-    "subtitle": "Blusa de Moletom flanelado, bolso canguru, capuz com forro personalizado com assinaturas dos alunos.",
-    "images": [
-      {
-        "src": "assets/uploads/1794860285891-fa3ca84c4412.webp",
-        "label": "Imagem real"
-      }
-    ],
-    "badge": "Moletom de Formandos",
-    "kind": "real",
-    "preview": false
-  },
-  {
-    "id": "camiseta-mwdh2bwj-qavi",
-    "name": "Moletom",
-    "category": "formaturas",
-    "subtitle": "Blusa de moletom preto, moletom flanelado PA.",
-    "images": [
-      {
-        "src": "assets/uploads/1794514681893-d6774b7e780c.webp",
-        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_21-4"
-      },
-      {
-        "src": "assets/uploads/1794514683777-4be75f4bc11c.webp",
-        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_19-2"
-      },
-      {
-        "src": "assets/uploads/1794514685532-b1549f0438e7.webp",
-        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_20-3"
-      },
-      {
-        "src": "assets/uploads/1794514687355-d60c88626d62.webp",
-        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_19-1"
-      }
-    ],
-    "badge": "Moletom escolar",
-    "kind": "real",
-    "preview": false
-  },
-  {
-    "id": "camiseta-mwcm9ql5-cz6b",
-    "name": "Camiseta em malha 100% algodão, gola redonda",
-    "category": "uniformes",
-    "subtitle": "Camiseta fabricada em malha de 100% algodão, gola redonda, estampa frente e estampa costa",
-    "images": [
-      {
-        "src": "assets/uploads/1794431940939-6119d4d70a9d.webp",
-        "label": "Mockup de Camiseta Chef Rafa em Algodão",
-        "isPreview": true
-      }
-    ],
-    "badge": "Uniforme",
-    "kind": "mockup",
-    "preview": true
-  },
-  {
     "id": "vidativa",
     "name": "Camiseta de corrida VidAtiva",
     "category": "esporte",
@@ -134,6 +46,161 @@ window.MULT_SILK_PRODUCTS = [
     "preview": true
   },
   {
+    "id": "camiseta-mwjpxwd5-2fie",
+    "name": "Camiseta em malha 100% algodão",
+    "category": "formaturas",
+    "subtitle": "Camiseta em malha 100% algodão na cor beje, gola redonda, estampa em DTF",
+    "images": [
+      {
+        "src": "assets/uploads/1794861160739-3ac886f3b911.webp",
+        "label": "Imagem Real do Produto"
+      }
+    ],
+    "badge": "Camiseta Grupo",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "camiseta-mwjpmhyj-597h",
+    "name": "Moletom Educação Física",
+    "category": "formaturas",
+    "subtitle": "Blusa de Moletom Off White Flanelado, com bolso canguru e capuz com cordão preto",
+    "images": [
+      {
+        "src": "assets/uploads/1794860912006-26c10fd82a03.webp",
+        "label": "Imagem Real do Moletom"
+      }
+    ],
+    "badge": "Moletom Educação Física",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "camiseta-mwjpe4r0-pljb",
+    "name": "Moletom azul bebê Nono Ano",
+    "category": "formaturas",
+    "subtitle": "Blusa de Moletom flanelado, bolso canguru, capuz com forro personalizado com assinaturas dos alunos.",
+    "images": [
+      {
+        "src": "assets/uploads/1794860285891-fa3ca84c4412.webp",
+        "label": "Imagem real"
+      }
+    ],
+    "badge": "Moletom de Formandos",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "camiseta-mwcm9ql5-cz6b",
+    "name": "Camiseta em malha 100% algodão, gola redonda",
+    "category": "uniformes",
+    "subtitle": "Camiseta fabricada em malha de 100% algodão, gola redonda, estampa frente e estampa costa",
+    "images": [
+      {
+        "src": "assets/uploads/1794431940939-6119d4d70a9d.webp",
+        "label": "Mockup de Camiseta Chef Rafa em Algodão",
+        "isPreview": true
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "mockup",
+    "preview": true
+  },
+  {
+    "id": "nativa-roxa",
+    "name": "Nativa FM 88,9 — roxa",
+    "category": "uniformes",
+    "subtitle": "Camiseta promocional em roxo com personalização de frente e costas.",
+    "images": [
+      {
+        "src": "assets/premium/nativa-roxa-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/nativa-roxa-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-06.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-05.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "terceirao-pantera",
+    "name": "Terceirão 2026 — Pantera",
+    "category": "formaturas",
+    "subtitle": "Camiseta de formatura com arte de pantera e detalhes nas mangas.",
+    "images": [
+      {
+        "src": "assets/premium/terceirao-pantera-1.webp",
+        "label": "Prévia estilizada — frente",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/terceirao-pantera-2.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/premium/terceirao-pantera-3.webp",
+        "label": "Prévia estilizada — outra vista",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-16.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-17.webp",
+        "label": "Costas"
+      },
+      {
+        "src": "assets/foto-22.webp",
+        "label": "Detalhe lateral"
+      }
+    ],
+    "badge": "Terceirão",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "camiseta-mwdh2bwj-qavi",
+    "name": "Moletom",
+    "category": "formaturas",
+    "subtitle": "Blusa de moletom preto, moletom flanelado PA.",
+    "images": [
+      {
+        "src": "assets/uploads/1794514681893-d6774b7e780c.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_21-4"
+      },
+      {
+        "src": "assets/uploads/1794514683777-4be75f4bc11c.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_19-2"
+      },
+      {
+        "src": "assets/uploads/1794514685532-b1549f0438e7.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_20-3"
+      },
+      {
+        "src": "assets/uploads/1794514687355-d60c88626d62.webp",
+        "label": "Imagem do ChatGPT 12 de nov. de 2026, 17_14_19-1"
+      }
+    ],
+    "badge": "Moletom escolar",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "corrida-azul",
     "name": "Camiseta Time Come & Corre",
     "category": "esporte",
@@ -156,42 +223,6 @@ window.MULT_SILK_PRODUCTS = [
       {
         "src": "assets/foto-15.webp",
         "label": "Costas"
-      }
-    ],
-    "badge": "Esportivo",
-    "kind": "real",
-    "preview": true
-  },
-  {
-    "id": "regata-azul",
-    "name": "Regata Time Come & Corre",
-    "category": "esporte",
-    "subtitle": "Regata esportiva com acabamentos contrastantes e estampa completa.",
-    "images": [
-      {
-        "src": "assets/premium/regata-azul-1.webp",
-        "label": "Prévia estilizada",
-        "isPreview": true
-      },
-      {
-        "src": "assets/foto-23.webp",
-        "label": "Frente"
-      },
-      {
-        "src": "assets/foto-25.webp",
-        "label": "Frente — lateral"
-      },
-      {
-        "src": "assets/foto-20.webp",
-        "label": "Frente — detalhe"
-      },
-      {
-        "src": "assets/foto-28.webp",
-        "label": "Costas"
-      },
-      {
-        "src": "assets/foto-26.webp",
-        "label": "Costas — lateral"
       }
     ],
     "badge": "Esportivo",
@@ -253,92 +284,6 @@ window.MULT_SILK_PRODUCTS = [
     "badge": "Uniforme",
     "kind": "real",
     "preview": false
-  },
-  {
-    "id": "nativa-roxa",
-    "name": "Nativa FM 88,9 — roxa",
-    "category": "uniformes",
-    "subtitle": "Camiseta promocional em roxo com personalização de frente e costas.",
-    "images": [
-      {
-        "src": "assets/premium/nativa-roxa-1.webp",
-        "label": "Prévia estilizada — frente",
-        "isPreview": true
-      },
-      {
-        "src": "assets/premium/nativa-roxa-2.webp",
-        "label": "Prévia estilizada — outra vista",
-        "isPreview": true
-      },
-      {
-        "src": "assets/foto-06.webp",
-        "label": "Frente"
-      },
-      {
-        "src": "assets/foto-05.webp",
-        "label": "Costas"
-      }
-    ],
-    "badge": "Uniforme",
-    "kind": "real",
-    "preview": true
-  },
-  {
-    "id": "nativa-polo",
-    "name": "Nativa FM 93,1 — polo",
-    "category": "uniformes",
-    "subtitle": "Polo personalizada em roxo, com logo aplicado no peito.",
-    "images": [
-      {
-        "src": "assets/foto-03.webp",
-        "label": "Frente"
-      },
-      {
-        "src": "assets/foto-07.webp",
-        "label": "Costas"
-      }
-    ],
-    "badge": "Uniforme",
-    "kind": "real",
-    "preview": false
-  },
-  {
-    "id": "terceirao-pantera",
-    "name": "Terceirão 2026 — Pantera",
-    "category": "formaturas",
-    "subtitle": "Camiseta de formatura com arte de pantera e detalhes nas mangas.",
-    "images": [
-      {
-        "src": "assets/premium/terceirao-pantera-1.webp",
-        "label": "Prévia estilizada — frente",
-        "isPreview": true
-      },
-      {
-        "src": "assets/premium/terceirao-pantera-2.webp",
-        "label": "Prévia estilizada — outra vista",
-        "isPreview": true
-      },
-      {
-        "src": "assets/premium/terceirao-pantera-3.webp",
-        "label": "Prévia estilizada — outra vista",
-        "isPreview": true
-      },
-      {
-        "src": "assets/foto-16.webp",
-        "label": "Frente"
-      },
-      {
-        "src": "assets/foto-17.webp",
-        "label": "Costas"
-      },
-      {
-        "src": "assets/foto-22.webp",
-        "label": "Detalhe lateral"
-      }
-    ],
-    "badge": "Terceirão",
-    "kind": "real",
-    "preview": true
   },
   {
     "id": "terceirao-luiz",
@@ -409,6 +354,76 @@ window.MULT_SILK_PRODUCTS = [
     "badge": "Moletom",
     "kind": "real",
     "preview": true
+  },
+  {
+    "id": "regata-azul",
+    "name": "Regata Time Come & Corre",
+    "category": "esporte",
+    "subtitle": "Regata esportiva com acabamentos contrastantes e estampa completa.",
+    "images": [
+      {
+        "src": "assets/premium/regata-azul-1.webp",
+        "label": "Prévia estilizada",
+        "isPreview": true
+      },
+      {
+        "src": "assets/foto-23.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-25.webp",
+        "label": "Frente — lateral"
+      },
+      {
+        "src": "assets/foto-20.webp",
+        "label": "Frente — detalhe"
+      },
+      {
+        "src": "assets/foto-28.webp",
+        "label": "Costas"
+      },
+      {
+        "src": "assets/foto-26.webp",
+        "label": "Costas — lateral"
+      }
+    ],
+    "badge": "Esportivo",
+    "kind": "real",
+    "preview": true
+  },
+  {
+    "id": "nativa-polo",
+    "name": "Nativa FM 93,1 — polo",
+    "category": "uniformes",
+    "subtitle": "Polo personalizada em roxo, com logo aplicado no peito.",
+    "images": [
+      {
+        "src": "assets/foto-03.webp",
+        "label": "Frente"
+      },
+      {
+        "src": "assets/foto-07.webp",
+        "label": "Costas"
+      }
+    ],
+    "badge": "Uniforme",
+    "kind": "real",
+    "preview": false
+  },
+  {
+    "id": "brasil",
+    "name": "Camiseta seleção brasileira",
+    "category": "esporte",
+    "subtitle": "Exemplo de camiseta esportiva amarela.",
+    "images": [
+      {
+        "src": "assets/foto-37.webp",
+        "label": "Frente"
+      }
+    ],
+    "badge": "Esportivo",
+    "kind": "real",
+    "preview": false
   },
   {
     "id": "brothers",
@@ -506,21 +521,6 @@ window.MULT_SILK_PRODUCTS = [
       }
     ],
     "badge": "Estampa",
-    "kind": "real",
-    "preview": false
-  },
-  {
-    "id": "brasil",
-    "name": "Camiseta seleção brasileira",
-    "category": "esporte",
-    "subtitle": "Exemplo de camiseta esportiva amarela.",
-    "images": [
-      {
-        "src": "assets/foto-37.webp",
-        "label": "Frente"
-      }
-    ],
-    "badge": "Esportivo",
     "kind": "real",
     "preview": false
   },
