@@ -1,6 +1,45 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
+    "id": "camiseta-mwmlfu8p-dgc2",
+    "name": "Camiseta Evento",
+    "category": "estampas",
+    "subtitle": "Camiseta em malha DRY FIT, estampa no processo sublimação total.",
+    "images": [
+      {
+        "src": "assets/uploads/1795035024117-c4d91b2d54ba.webp",
+        "label": "Imagem da Camiseta Real, fundo ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795035026061-cd7fbef5c4e6.webp",
+        "label": "Imagem da Camiseta Real, fundo ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795035028084-a686f1331173.webp",
+        "label": "Imagem da Camiseta Real, fundo ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795035030130-f315a7f72a78.webp",
+        "label": "Imagem da Camiseta Real, fundo ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795035032200-6e83a1d53525.webp",
+        "label": "Imagem da Camiseta Real, fundo ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795035034105-ce86903d52aa.webp",
+        "label": "Imagem da Camiseta Real, fundo ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795035036567-06152175b403.webp",
+        "label": "Imagem da Camiseta Real, fundo ilustrativo"
+      }
+    ],
+    "badge": "Camiseta Evento",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "camiseta-mwl5gnv4-erfv",
     "name": "Camiseta de Corrida",
     "category": "esporte",
