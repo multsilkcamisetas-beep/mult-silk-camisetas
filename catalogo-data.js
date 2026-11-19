@@ -37,6 +37,26 @@ window.MULT_SILK_PRODUCTS = [
       {
         "src": "assets/uploads/1795087186450-ce6956730183.webp",
         "label": "Camiseta Little Brother com Nome-3"
+      },
+      {
+        "src": "assets/uploads/1795087540794-7d0ecba35fac.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795087542688-b3df3ddfdc12.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795087544608-368b22739ed8.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795087546450-e6b7242a439c.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
+      },
+      {
+        "src": "assets/uploads/1795087548414-202bf4c8de72.webp",
+        "label": "Camiseta Real, Fundo Ilustrativo"
       }
     ],
     "badge": "Camiseta Personalizada",
