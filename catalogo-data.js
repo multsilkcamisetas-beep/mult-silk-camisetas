@@ -1,6 +1,49 @@
 /* Catálogo MULT SILK — gerenciado pelo painel online. */
 window.MULT_SILK_PRODUCTS = [
   {
+    "id": "camiseta-mwngipg6-v776",
+    "name": "Camiseta Personalizada",
+    "category": "estampas",
+    "subtitle": "Camiseta em malha PV (malha fria) Personalizada",
+    "images": [
+      {
+        "src": "assets/uploads/1795087174020-7b71b8b5808c.webp",
+        "label": "Mockup de Camisetas"
+      },
+      {
+        "src": "assets/uploads/1795087176002-6b8ef0bca9b9.webp",
+        "label": "Camiseta Disney"
+      },
+      {
+        "src": "assets/uploads/1795087177890-89aac0193600.webp",
+        "label": "Camisetas pretas Mickey e Minnie"
+      },
+      {
+        "src": "assets/uploads/1795087179529-df1d56042b0f.webp",
+        "label": "Camisetas combinando Little Brother e Mommy"
+      },
+      {
+        "src": "assets/uploads/1795087181348-9ce4f1dd20c4.webp",
+        "label": "Camiseta preta com estampa e NOME"
+      },
+      {
+        "src": "assets/uploads/1795087183056-120dd621262d.webp",
+        "label": "Camiseta Minnie Mommy"
+      },
+      {
+        "src": "assets/uploads/1795087184768-3cb201ee5561.webp",
+        "label": "Catálogo de Camisetas"
+      },
+      {
+        "src": "assets/uploads/1795087186450-ce6956730183.webp",
+        "label": "Camiseta Little Brother com Nome-3"
+      }
+    ],
+    "badge": "Camiseta Personalizada",
+    "kind": "real",
+    "preview": false
+  },
+  {
     "id": "camiseta-mwmlfu8p-dgc2",
     "name": "Camiseta Evento",
     "category": "estampas",
